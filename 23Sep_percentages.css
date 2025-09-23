@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+}
+
+.bar{
+    width: 90%;
+    height: 30px;
+    background-color: #9e9e9e;
+    margin: 15px 0px;
+    text-align: center;
+    position: relative;
+}
+.percentage1{
+    position: absolute;
+    background-color: #4CAF50;
+    height: 100%;
+    width: 25%;
+    padding: 4px;
+    color: white;
+}
+.percentage2{
+    position: absolute;
+    background-color: #ff9800;
+    height: 100%;
+    width: 50%;
+    padding: 4px;
+    color: black;
+}
+.percentage3{
+    position: absolute;
+    background-color: #f44336;
+    height: 100%;
+    width: 75%;
+    padding: 4px;
+    color: white;
+}
+
+h5{
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size:larger;
+}
+
+p{
+    margin: 15px, 0px;
+    font-size: 15px;
+}
